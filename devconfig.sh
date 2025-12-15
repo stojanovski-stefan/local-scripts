@@ -1,5 +1,9 @@
 #!/bin/bash
 
+# install homebrew
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+
+brew install git
 # Other installation methods: https://www.freecodecamp.org/news/how-to-use-lazygit-to-improve-your-git-workflow/
 brew install lazygit
 
@@ -7,7 +11,8 @@ brew install tmux
 brew install fontconfig
 brew install --cask font-jetbrains-mono-nerd-font
 
-
+brew install ripgrep
+brew install neovim
 # Clone my nvim config
 git clone https://github.com/stojanovski-stefan/nvim.git ~/.config/nvim
 
