@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# Other installation methods: https://www.freecodecamp.org/news/how-to-use-lazygit-to-improve-your-git-workflow/
+brew install lazygit
+
 brew install tmux
 brew install fontconfig
 brew install --cask font-jetbrains-mono-nerd-font
