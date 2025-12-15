@@ -8,6 +8,9 @@ case "$os_name" in
     Darwin*)    brew install tmux;;
 esac
 
+# Clone my nvim config
+git clone https://github.com/stojanovski-stefan/nvim.git ~/.config/nvim
+
 # clone repo for tmux plugin manager
 git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 
