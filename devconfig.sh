@@ -1,12 +1,9 @@
 #!/bin/bash
 
-os_name=$(uname -s)
+brew install tmux
+brew install fontconfig
+brew install --cask font-jetbrains-mono-nerd-font
 
-# install tmux depending on os
-case "$os_name" in
-    Linux*)     sudo apt install tmux;;
-    Darwin*)    brew install tmux;;
-esac
 
 # Clone my nvim config
 git clone https://github.com/stojanovski-stefan/nvim.git ~/.config/nvim
